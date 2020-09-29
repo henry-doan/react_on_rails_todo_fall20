@@ -40,6 +40,7 @@ class Api::TodosController < ApplicationController
 
   private
     def todo_params
+      # { todo: { title: 'eadfa', complete: true } }
       params.require(:todo).permit(:title, :complete)
     end
 
