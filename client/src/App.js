@@ -60,7 +60,7 @@ class App extends Component {
     const { todos } = this.state 
     return(
       <Container>
-        <Header>Todo List</Header>
+        <Header>Henry's Todo List</Header>
         <TodoForm addTodo={this.addTodo} />
         <TodoList 
           todos={todos} 
