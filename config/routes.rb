@@ -8,4 +8,7 @@ Rails.application.routes.draw do
     #   resources :comments
     # end
   end
+
+  # the very last route 
+  get '*other', to: 'static#index'
 end
